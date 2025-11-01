@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<script src="website.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Locara</title>
+  <link rel="icon" type="image/png" href="imgs/fav.png">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      user-select: none;
+      -webkit-user-drag: none;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body oncontextmenu="return false;">
+  <img src="imgs/logo.png" alt="Locara">
+</body>
+</html>
